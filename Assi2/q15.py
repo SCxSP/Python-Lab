@@ -1,0 +1,6 @@
+lis=()
+lis=input("Enter nos: ").split()
+print(type(lis))
+print(len(lis))
+print(max(lis))
+print(min(lis))

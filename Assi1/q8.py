@@ -1,0 +1,6 @@
+c=(input("Enter no: "))
+print(c, type(c))
+c=int(c)
+print(c, type(c))
+c=float(c)
+print(c, type(c))
