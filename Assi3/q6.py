@@ -1,4 +1,8 @@
-infos=[("SC",8,9,7,),("SP",9,9,7,),("RG",9,9,9,)]
-
-for info in infos:
-    print(f"Name: {info[0]}  Marks 1: {info[1]}  Marks 2: {info[2]}  Marks 3: {info[3]} Total: {info[1]+info[2]+info[3]}")
+n = int(input("Enter no of students: "))
+students = []
+for i in range(n):
+    name = input("Enter name: ")
+    m1, m2, m3 = map(int, input("Enter 3 marks: ").split())
+    students.append([name, m1, m2, m3])
+for s in students:
+    print(s[0], sum(s[1:]))

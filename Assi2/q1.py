@@ -1,2 +1,2 @@
-a="I am a student."
-print(len(a))
+s = input("Enter string: ")
+print(len(s))

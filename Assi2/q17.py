@@ -1,3 +1,3 @@
-a=tuple("I am a Student")
-print(a)
-print(a.index("a")," is Index of 'a'")
+t = tuple(input("Enter elements: ").split())
+x = input("Enter element: ")
+print(t.index(x))

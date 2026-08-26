@@ -1,4 +1,4 @@
-n=input("Enter no: ")
-print(type(n))
-c=int(input("Enter no: "))
-print(type(c))
+n = input("Enter string: ")
+print(n, type(n))
+c = int(input("Enter integer: "))
+print(c, type(c))

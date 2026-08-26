@@ -1,6 +1,5 @@
-print("Enter 5 nos: ")
-lis=[]
-for i in range(5):
-    lis.append(int(input()))
-lis.pop(3)
+lis = list(map(int, input("Enter nos: ").split()))
+n = int(input("Enter no to remove: "))
+if n in lis:
+    lis.remove(n)
 print(lis)

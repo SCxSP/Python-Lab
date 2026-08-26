@@ -1,5 +1,3 @@
-Rolls = [190, 191, 189, 185, 179, 178, 190, 191]
-
-print(Rolls)
-print(set(Rolls))
-
+rolls = list(map(int, input("Enter rolls: ").split()))
+print(rolls)
+print(list(set(rolls)))

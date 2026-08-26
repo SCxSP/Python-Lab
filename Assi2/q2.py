@@ -1,3 +1,3 @@
-a="I am a student."
-b=" Currently I am doing BCA course."
-print(a+b)
+a = input("Enter first string: ")
+b = input("Enter second string: ")
+print(a + b)

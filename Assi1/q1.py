@@ -1,1 +1,2 @@
-print("Hello World")
+s = input("Enter message: ")
+print(s)

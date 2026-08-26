@@ -1,7 +1,3 @@
-lis=[70,52,10,4,59]
-print(lis)
+lis = list(map(int, input("Enter nos: ").split()))
 lis.sort()
 print(lis)
-
-
-

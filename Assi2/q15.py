@@ -1,6 +1,2 @@
-lis=()
-lis=input("Enter nos: ").split()
-print(type(lis))
-print(len(lis))
-print(max(lis))
-print(min(lis))
+t = tuple(map(int, input("Enter 5 nos: ").split()))
+print(len(t), max(t), min(t))

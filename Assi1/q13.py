@@ -1,6 +1,4 @@
-print("Enter 5 nos: ")
-lis=[]
-for i in range(5):
-    lis.append(input())
-
+lis = list(map(int, input("Enter nos: ").split()))
+n = int(input("Enter no to append: "))
+lis.append(n)
 print(lis)

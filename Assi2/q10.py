@@ -1,5 +1,4 @@
-lis=[1,2,3,4,5]
-print(lis)
-lis.append(int(input("No to add at the end: ")))
-
+lis = list(map(int, input("Enter nos: ").split()))
+n = int(input("Enter no to append: "))
+lis.append(n)
 print(lis)

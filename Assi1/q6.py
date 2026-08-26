@@ -1,4 +1,2 @@
-c=int(input("Enter the celcious: "))
-print(f"Tempareture in F: {((9*c)/5)+32}")
-
-# c/5=(f-32)/9
+c = float(input("Enter Celsius: "))
+print("Fahrenheit:", (c * 9/5) + 32)

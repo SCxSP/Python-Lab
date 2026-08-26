@@ -1,7 +1,6 @@
-a,b=input("Enter 2nos: ").split()
-a,b=int(a),int(b)
-A=a+b
-S=a-b
-M=a*b
-D=a/b
-print(f"Addition: {A}\nSubstraction: {S}\nMultiplication: {M}\nDivision: {D}")
+a = float(input("Enter first no: "))
+b = float(input("Enter second no: "))
+print("Sum:", a + b)
+print("Sub:", a - b)
+print("Mul:", a * b)
+print("Div:", a / b if b != 0 else "Cannot divide by 0")

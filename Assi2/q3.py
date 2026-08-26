@@ -1,3 +1,3 @@
-a="I am a student."
-print(a.upper())
-print(a.lower())
+s = input("Enter string: ")
+print(s.upper())
+print(s.lower())

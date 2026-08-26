@@ -1,3 +1,3 @@
-l,b=(input("Enter the radious: ").split())
-l,b=int(l),int(b)
-print(f"Area of the Rectangle: {l*b}")
+l = float(input("Enter length: "))
+b = float(input("Enter breadth: "))
+print("Area:", l * b)

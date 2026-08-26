@@ -1,3 +1,3 @@
-Temps = [40, 38, 45, 39, 38, 42, 36]
-print(Temps)
-print(f"Maximum Temperature: {max(Temps)} on {Temps.index(max(Temps))+1}\nMinimum Temperature: {min(Temps)} on {Temps.index(min(Temps))+1}")
+temps = list(map(float, input("Enter 7 temps: ").split()))
+print("Max:", max(temps), "Day:", temps.index(max(temps)) + 1)
+print("Min:", min(temps), "Day:", temps.index(min(temps)) + 1)

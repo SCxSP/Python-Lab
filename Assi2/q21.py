@@ -1,3 +1,3 @@
-lis=[[1,2,3],[4,5,6]]
-for li in lis:
-    print(li)
+lis = [list(map(int, input(f"Enter list {i+1}: ").split())) for i in range(3)]
+for l in lis:
+    print(l)

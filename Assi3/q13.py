@@ -1,4 +1,4 @@
-marks = list(map(int, input("Enter 10 marks: ").split()))
+marks = tuple(map(float, input("Enter 10 marks: ").split()))
 print("Max:", max(marks))
 print("Min:", min(marks))
 print("Total:", sum(marks))

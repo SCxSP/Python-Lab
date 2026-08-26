@@ -1,3 +1,3 @@
-name = input("Enter your name: ")
-age = int(input("Enter your age: "))
-print(f"Your name is {name}! You are {age} years old.")
+name = input("Enter name: ")
+age = int(input("Enter age: "))
+print(f"Name: {name}, Age: {age}")

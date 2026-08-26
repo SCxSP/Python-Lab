@@ -1,2 +1,3 @@
-a="BCA Course"
-print(a.count("C"))
+s = input("Enter string: ")
+c = input("Enter char: ")
+print(s.count(c))

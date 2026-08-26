@@ -1,4 +1,4 @@
-name = input("Enter your name: ")
-roll = int(input("Enter your Roll no.: "))
-marks = int(input("Enter your Marks: "))
-print(f"Your name is {name}! You roll no is {roll} and you got {marks} marks.")
+name = input("Enter name: ")
+roll = input("Enter roll: ")
+marks = int(input("Enter marks: "))
+print(f"Name: {name}, Roll: {roll}, Marks: {marks}")

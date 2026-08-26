@@ -1,7 +1,3 @@
-lis=[1,2,3,4,5]
-print(lis)
+lis = list(map(int, input("Enter nos: ").split()))
 lis.pop()
 print(lis)
-
-
-

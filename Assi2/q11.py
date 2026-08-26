@@ -1,7 +1,5 @@
-lis=[1,2,3,4,5]
+lis = list(map(int, input("Enter nos: ").split()))
+pos = int(input("Enter position: "))
+val = int(input("Enter value: "))
+lis.insert(pos, val)
 print(lis)
-lis.insert(int(input("Enter position to Enter: ")),int(input("Enter No to Enter: ")))
-print(lis)
-
-
-

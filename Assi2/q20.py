@@ -1,6 +1,4 @@
-name = input("Enter your name: ")
-q1, q2, q3 = input("Enter your Marks: ").split()
-total = int(q1) + int(q2) + int(q3)
-print(f"Your name is {name}!")
-print(f"Your Total is: {total}")
-print(f"Your Avg is: {total / 3:.2f}")
+name = input("Enter name: ")
+m1, m2, m3 = map(int, input("Enter 3 marks: ").split())
+tot = m1 + m2 + m3
+print(f"Name: {name}, Total: {tot}, Avg: {tot/3:.2f}")

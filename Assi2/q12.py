@@ -1,7 +1,4 @@
-lis=[1,2,3,4,5]
+lis = list(map(int, input("Enter nos: ").split()))
+n = int(input("Enter no to remove: "))
+lis.remove(n)
 print(lis)
-lis.remove(int(input("Enter No to Remove: ")))
-print(lis)
-
-
-

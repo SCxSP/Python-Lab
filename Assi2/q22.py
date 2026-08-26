@@ -1,9 +1,7 @@
-Marks = [[], [], []]
-n = 1
-for Mark in Marks:
-    Mark.extend(map(int, input(f"Enter Marks of Student {n}: ").split()))
-    n += 1
-n = 1
-for Mark in Marks:
-    print(f"Student {n} Total Marks: {sum(Mark)}")
-    n += 1
+marks = []
+for i in range(3):
+    m = list(map(int, input(f"Enter student {i+1} marks: ").split()))
+    marks.append(m)
+
+for i in range(3):
+    print(f"Student {i+1} Total:", sum(marks[i]))

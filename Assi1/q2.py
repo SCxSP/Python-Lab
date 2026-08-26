@@ -1,2 +1,2 @@
-n=input("Enter your Name: ")
-print(f"Good Morning {n}")
+name = input("Enter name: ")
+print("Good Morning", name)

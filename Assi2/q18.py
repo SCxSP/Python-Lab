@@ -1,5 +1,4 @@
-lis=[1,2,3,4,5]
+lis = list(map(int, input("Enter nos: ").split()))
+t = tuple(lis)
 print(lis, type(lis))
-
-tup=tuple(lis)
-print(tup, type(tup))
+print(t, type(t))

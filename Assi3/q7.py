@@ -1,11 +1,9 @@
-nums = [5,1,4,3,6]
-first = second = -9999999999999
-    
+nums = list(map(int, input("Enter nos: ").split()))
+first = second = -999999
 for num in nums:
     if num > first:
         second = first
         first = num
-    elif num > second:
+    elif num > second and num != first:
         second = num
-print(nums)
-print("Second Largest: ",second)
+print("Second Largest:", second)

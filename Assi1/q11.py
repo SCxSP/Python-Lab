@@ -1,9 +1,2 @@
-# print("Enter 5 nos: ")
-# lis=[]
-# for i in range(5):
-#     lis.append(input())
-
-# print(lis)
-
-numbers = list(map(int, input("Enter numbers: ").split()))
-print(numbers)
+lis = list(map(int, input("Enter 5 nos: ").split()))
+print(lis)

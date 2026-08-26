@@ -1,3 +1,2 @@
-nums = [10, 20, 30, 40]
-
-print(nums[3:]+nums[:3])
+nums = list(map(int, input("Enter nos: ").split()))
+print(nums[-1:] + nums[:-1])

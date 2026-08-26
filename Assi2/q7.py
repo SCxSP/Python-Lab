@@ -1,3 +1,3 @@
-name = input("Enter your name: ")
-title = input("Enter your title: ")
-print(f"Your name is {name} & Your last name is {title}.")
+f_name = input("Enter first name: ")
+l_name = input("Enter last name: ")
+print(f"{f_name} {l_name}")

@@ -1,5 +1,2 @@
-lis=[]
-print("Enter 5 Nos: ",end=" ")
-for i in range(5):
-    lis.append(int(input()))
+lis = list(map(int, input("Enter 5 nos: ").split()))
 print(sum(lis))
