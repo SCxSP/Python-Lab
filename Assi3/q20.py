@@ -7,3 +7,4 @@ print("Avg:", avg)
 for name, sal in emp.items():
     if sal > avg:
         print(name, sal)
+
