@@ -1,5 +1,8 @@
 def student_details(name, age, course):
-    print(f"Your Name is {name}, you are {age} years old, and you are persuing {course}")
+    print(f"Name: {name}, Age: {age}, Course: {course}")
 
-student_details(name="SP",age=20,course="BCA")
-student_details(name="SP",course="BCA",age=20)
+n = input("Enter name: ")
+a = int(input("Enter age: "))
+c = input("Enter course: ")
+
+student_details(age=a, course=c, name=n)

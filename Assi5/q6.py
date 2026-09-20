@@ -1,4 +1,6 @@
 def calculate_area(length, width):
-    return length*width
+    return length * width
 
-print(calculate_area(int(input("Enter Length: ")),int(input("Enter Width: "))),"is the Area")
+l = float(input("Enter length: "))
+w = float(input("Enter width: "))
+print("Area:", calculate_area(l, w))

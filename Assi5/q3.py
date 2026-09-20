@@ -1,7 +1,9 @@
 def add_numbers(a, b):
-    print("Sum: ",a+b)
-    print("Difference: ",a-b)
-    print("Product: ",a*b)
-    print("Quotient: ",a/b)
+    print("Sum:", a + b)
+    print("Diff:", a - b)
+    print("Prod:", a * b)
+    print("Quot:", a / b if b != 0 else "Cannot divide by 0")
 
-add_numbers(int(input("Enter number A: ")),int(input("Enter number B: ")))
+a = float(input("Enter first no: "))
+b = float(input("Enter second no: "))
+add_numbers(a, b)

@@ -1,7 +1,7 @@
 def display_info():
-    name = input("Enter your Name: ")
-    department = input("Enter your Department: ")
-    college = input("Enter your name of the College: ")
-    print(f"Your Name is {name}, you are study in {department} department of {college}")
+    name = input("Enter name: ")
+    dept = input("Enter dept: ")
+    college = input("Enter college: ")
+    print(f"Name: {name}, Dept: {dept}, College: {college}")
 
 display_info()

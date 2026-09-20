@@ -1,6 +1,8 @@
 def student_result(name, marks1, marks2, marks3):
-    print(f"Name: {name}")
-    print(f"Total Marks: {marks1+marks2+marks3}")
-    print(f"Percentage: {(((marks1+marks2+marks3)/300)*100):.2f}%")
+    tot = marks1 + marks2 + marks3
+    perc = (tot / 300) * 100
+    print(f"Name: {name}, Total: {tot}, Percentage: {perc:.2f}%")
 
-student_result("SP",60,90,79)
+name = input("Enter name: ")
+m1, m2, m3 = map(float, input("Enter 3 marks: ").split())
+student_result(name, m1, m2, m3)
