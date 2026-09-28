@@ -1,4 +1,4 @@
-a = list(map(int, input("Enter list 1: ").split()))
-b = list(map(int, input("Enter list 2: ").split()))
+a = [10, 20, 30, 40, 50] 
+b = [1, 2, 3, 4, 5] 
 res = list(map(lambda x, y: x + y, a, b))
 print("Result:", res)

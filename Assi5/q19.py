@@ -6,6 +6,6 @@ def is_prime(n):
             return False
     return True
 
-numbers = list(map(int, input("Enter nos: ").split()))
+numbers = [2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 13, 15, 17, 20] 
 primes = list(filter(is_prime, numbers))
 print("Primes:", primes)
