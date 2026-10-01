@@ -1,0 +1,3 @@
+This is the sample text file for source.txt.
+Demonstrating file handling and copy operations in Python.
+Total lines: 3, Total words: 17.
